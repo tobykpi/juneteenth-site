@@ -1979,7 +1979,12 @@ nav {
   aspect-ratio: 1 / 1;
   border-radius: 20px;
   object-fit: cover;
+  object-position: center top;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
+}
+
+.team-photo-donita {
+  object-position: center 18%;
 }
 
 .bio-trigger {
