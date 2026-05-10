@@ -152,7 +152,11 @@
               <strong>Donita J. Moore</strong>
               <span>Board Member</span>
             </div>
-            <div class="team-person">
+            <div class="team-person team-person-with-photo">
+              <div class="team-person-media">
+                <img src="images/Stella Ponzo.png" alt="Stella Ponzo" class="team-photo team-photo-stella">
+                <button type="button" class="bio-trigger" data-dialog="stella-bio-dialog">View Bio</button>
+              </div>
               <strong>Stella Ponzo</strong>
               <span>Board Member</span>
             </div>
@@ -421,6 +425,32 @@
         Her favorite quotes are "Education is the passport to the future, for tomorrow belongs to
         those who prepare for it today." - Malcolm X and "Anyone who stops learning is old,
         whether at twenty or eighty. Anyone who keeps learning stays young." - Henry Ford.
+      </p>
+    </div>
+  </dialog>
+
+  <dialog class="bio-dialog" id="stella-bio-dialog" aria-labelledby="stella-bio-title">
+    <div class="bio-dialog-head">
+      <div>
+        <p class="bio-dialog-kicker">Board Member</p>
+        <h4 id="stella-bio-title">Stella Ponzo</h4>
+      </div>
+      <button type="button" class="bio-close" data-close-dialog="stella-bio-dialog" aria-label="Close Stella Ponzo biography">
+        Close
+      </button>
+    </div>
+
+    <div class="bio-dialog-body">
+      <p>
+        Stella Ponzo is a retired professional dedicating nearly 40 years to PerkinElmer, a global
+        leader focused on improving human and environmental health. While working at PerkinElmer,
+        Stella earned her Master of Business Administration degree from Wilmington University.
+      </p>
+
+      <p>
+        Passionate about service after retirement, she has worked as a substitute teacher, actively
+        served in mission-related projects at her local church, and enjoys volunteering at Family
+        Promise and Delaware Juneteenth.
       </p>
     </div>
   </dialog>

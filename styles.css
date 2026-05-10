@@ -1622,6 +1622,14 @@ nav {
   color: var(--black);
 }
 
+.contact-glow-title {
+  color: var(--red);
+  text-shadow:
+    0 0 8px rgba(208, 16, 24, 0.35),
+    0 0 18px rgba(244, 196, 48, 0.4),
+    0 0 34px rgba(0, 122, 61, 0.24);
+}
+
 .page-hero p {
   max-width: 760px;
   margin: 18px auto 0;
@@ -1985,6 +1993,10 @@ nav {
 
 .team-photo-donita {
   object-position: center 18%;
+}
+
+.team-photo-stella {
+  object-position: 58% 34%;
 }
 
 .bio-trigger {
