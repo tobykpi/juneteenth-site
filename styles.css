@@ -2028,6 +2028,10 @@ nav {
   object-position: 58% 34%;
 }
 
+.team-photo-renee {
+  object-position: center 26%;
+}
+
 .bio-trigger {
   align-self: flex-start;
   margin-left: auto;
